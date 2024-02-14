@@ -1,0 +1,3 @@
+NODE copy_2_0
+SQL >
+    SELECT * FROM analytics

@@ -2,8 +2,4 @@ TOKEN "scheduled_copy_t_de3cd634f5df473fa8d6c114878fbe0e" READ
 
 NODE copy_1_0
 SQL >
-    SELECT * FROM analytics
-
-TYPE COPY
-TARGET_DATASOURCE analytics_copy_1
-COPY_SCHEDULE 28 * * * *
+    SELECT * FROM analytics limit 1
